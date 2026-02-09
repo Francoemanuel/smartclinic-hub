@@ -22,7 +22,7 @@ export default function Home() {
     const auth = btoa('root:1234'); 
     
     // URL IMPORTANTE: Asegúrate de que termine en / para Django
-    const url = 'http://localhost:8000/api/pacientes/';
+    const url = '/api/pacientes/';
 
     console.log("Iniciando conexión con el Backend...");
 
